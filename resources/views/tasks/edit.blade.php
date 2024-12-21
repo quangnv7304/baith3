@@ -19,7 +19,7 @@
                 <textarea class="form-control" id="long_description" name="long_description">{{ $task->long_description }}</textarea>
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="completed" name="completed" {{ $task->completed ? 'checked' : '' }}>
+                <input type="checkbox" class="form-check-input" id="completed" name="completed" {{ $task->completed ? 'checked' : '' }} value="1">
                 <label class="form-check-label" for="completed">Hoàn thành</label>
             </div>
             <button type="submit" class="btn btn-primary">Lưu</button>
